@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1, "difficulty": "easy",
+    "question": "What was NVIDIA's total revenue for fiscal year 2026?",
+    "answer": "NVIDIA's revenue for fiscal year 2026 was $215,938 million (about $215.9 billion), up 65% from $130,497 million in fiscal year 2025.",
+    "evidence": [{"document": "NVIDIA_FY2026_10-K", "anchor": "215,938|215\\.9 billion"}]
+  },
+  {
+    "id": 2, "difficulty": "easy",
+    "question": "What was AMD's total net revenue in 2025?",
+    "answer": "AMD's net revenue was $34,639 million (about $34.6 billion) in 2025, up from $25,785 million in 2024.",
+    "evidence": [{"document": "AMD_FY2025_10-K", "anchor": "34,639|34\\.6 billion"}]
+  },
+  {
+    "id": 3, "difficulty": "easy",
+    "question": "What was Intel's net revenue in 2025?",
+    "answer": "Intel's net revenue was $52,853 million (about $52.9 billion) in 2025, down from $53,101 million in 2024.",
+    "evidence": [{"document": "Intel_FY2025_10-K", "anchor": "52,853|52\\.9 billion"}]
+  },
+  {
+    "id": 4, "difficulty": "easy",
+    "question": "How many employees did NVIDIA have at the end of fiscal year 2026?",
+    "answer": "About 42,000 employees in 38 countries, of whom 31,000 worked in research and development.",
+    "evidence": [{"document": "NVIDIA_FY2026_10-K", "anchor": "42,000 employees"}]
+  },
+  {
+    "id": 5, "difficulty": "easy",
+    "question": "How many employees did AMD have at the end of 2025?",
+    "answer": "About 31,000 employees as of December 27, 2025.",
+    "evidence": [{"document": "AMD_FY2025_10-K", "anchor": "31,000 employees"}]
+  },
+  {
+    "id": 6, "difficulty": "easy",
+    "question": "What was Intel's employee headcount at the end of 2025?",
+    "answer": "85,100 people as of December 27, 2025, counting the core Intel workforce plus Mobileye and other subsidiaries.",
+    "evidence": [{"document": "Intel_FY2025_10-K", "anchor": "85,100"}]
+  },
+  {
+    "id": 7, "difficulty": "easy",
+    "question": "How much of its own stock did NVIDIA buy back in fiscal year 2026?",
+    "answer": "NVIDIA repurchased 282 million shares of its common stock for $40.4 billion in fiscal year 2026.",
+    "evidence": [{"document": "NVIDIA_FY2026_10-K", "anchor": "repurchased 282 million"}]
+  },
+  {
+    "id": 8, "difficulty": "easy",
+    "question": "What was revenue in AMD's Data Center segment in 2025?",
+    "answer": "Data Center segment net revenue was $16,635 million in 2025, up from $12,579 million in 2024.",
+    "evidence": [{"document": "AMD_FY2025_10-K", "anchor": "16,635|16\\.6 billion"}]
+  },
+  {
+    "id": 9, "difficulty": "medium",
+    "question": "How did NVIDIA's gross margin change from fiscal year 2025 to fiscal year 2026?",
+    "answer": "Gross margin fell to 71.1% in fiscal year 2026 from 75.0% in fiscal year 2025.",
+    "evidence": [{"document": "NVIDIA_FY2026_10-K", "anchor": "71\\.1\\s*%"}]
+  },
+  {
+    "id": 10, "difficulty": "medium",
+    "question": "How much did Intel spend on research and development in 2025, and how did that compare with 2024?",
+    "answer": "Intel's R&D expense was $13,774 million in 2025, down about $2.8 billion (17%) from $16,546 million in 2024, mainly from lower payroll costs after headcount reductions.",
+    "evidence": [{"document": "Intel_FY2025_10-K", "anchor": "13,774|13\\.8 billion in 2025"}]
+  },
+  {
+    "id": 11, "difficulty": "medium",
+    "question": "How concentrated was NVIDIA's revenue among direct customers in fiscal year 2026?",
+    "answer": "One direct customer accounted for 22% of total revenue and another for 14%, both mainly in the Compute & Networking segment.",
+    "evidence": [{"document": "NVIDIA_FY2026_10-K", "anchor": "22% of total revenue"}]
+  },
+  {
+    "id": 12, "difficulty": "medium",
+    "question": "What drove the growth in AMD's Client revenue in 2025?",
+    "answer": "Client net revenue rose 51% to $10.6 billion from $7.1 billion, driven by a 31% increase in processor unit shipments and a 15% increase in processor average selling price.",
+    "evidence": [{"document": "AMD_FY2025_10-K", "anchor": "31% increase in unit shipments"}]
+  },
+  {
+    "id": 13, "difficulty": "medium",
+    "question": "What share of Intel's 2025 net revenue came from its three largest customers?",
+    "answer": "Intel's three largest customers accounted for 43% of net revenue in 2025, compared with 45% in 2024 and 40% in 2023.",
+    "evidence": [{"document": "Intel_FY2025_10-K", "anchor": "43% of our net revenue"}]
+  },
+  {
+    "id": 14, "difficulty": "hard",
+    "question": "Rank NVIDIA, Intel and AMD by total revenue in their most recent fiscal year.",
+    "answer": "NVIDIA $215,938 million (fiscal 2026), then Intel $52,853 million (2025), then AMD $34,639 million (2025).",
+    "evidence": [
+      {"document": "NVIDIA_FY2026_10-K", "anchor": "215,938|215\\.9 billion"},
+      {"document": "Intel_FY2025_10-K", "anchor": "52,853|52\\.9 billion"},
+      {"document": "AMD_FY2025_10-K", "anchor": "34,639|34\\.6 billion"}
+    ]
+  },
+  {
+    "id": 15, "difficulty": "hard",
+    "question": "Which of the three companies spent the most on research and development in its latest fiscal year, and how much did each spend?",
+    "answer": "NVIDIA spent the most at $18,497 million (fiscal 2026), then Intel at $13,774 million and AMD at $8,091 million (both 2025).",
+    "evidence": [
+      {"document": "NVIDIA_FY2026_10-K", "anchor": "18,497"},
+      {"document": "Intel_FY2025_10-K", "anchor": "13,774|13\\.8 billion in 2025"},
+      {"document": "AMD_FY2025_10-K", "anchor": "8,091|8\\.1 billion in 2025"}
+    ]
+  },
+  {
+    "id": 16, "difficulty": "hard",
+    "question": "Compare the employee headcounts of NVIDIA, AMD and Intel at the end of their latest fiscal years.",
+    "answer": "Intel had the most with 85,100, then NVIDIA with about 42,000, then AMD with about 31,000.",
+    "evidence": [
+      {"document": "Intel_FY2025_10-K", "anchor": "85,100"},
+      {"document": "NVIDIA_FY2026_10-K", "anchor": "42,000 employees"},
+      {"document": "AMD_FY2025_10-K", "anchor": "31,000 employees"}
+    ]
+  },
+  {
+    "id": 17, "difficulty": "hard",
+    "question": "Which company held the most cash and cash equivalents at the end of its latest fiscal year? Give each company's figure.",
+    "answer": "Intel held the most with $14,265 million, then NVIDIA with $10,605 million and AMD with $5,539 million (cash and cash equivalents only, not marketable securities or short-term investments).",
+    "evidence": [
+      {"document": "Intel_FY2025_10-K", "anchor": "14,265"},
+      {"document": "NVIDIA_FY2026_10-K", "anchor": "10,605"},
+      {"document": "AMD_FY2025_10-K", "anchor": "5,539"}
+    ]
+  },
+  {
+    "id": 18, "difficulty": "hard",
+    "question": "Compare the share repurchases NVIDIA and AMD made in their latest fiscal years.",
+    "answer": "NVIDIA repurchased 282 million shares for $40.4 billion in fiscal 2026; AMD repurchased 12 million shares for $1.3 billion in 2025.",
+    "evidence": [
+      {"document": "NVIDIA_FY2026_10-K", "anchor": "repurchased 282 million"},
+      {"document": "AMD_FY2025_10-K", "anchor": "repurchased 12 million shares|repurchase of 12\\.4 million shares"}
+    ]
+  },
+  {
+    "id": 19, "difficulty": "unanswerable",
+    "question": "How many GPUs did NVIDIA ship in fiscal year 2026?",
+    "answer": "Not in the filings: NVIDIA's 10-K does not report unit shipments.",
+    "evidence": []
+  },
+  {
+    "id": 20, "difficulty": "unanswerable",
+    "question": "How many wafer starts per month did Intel's fabs run in 2025?",
+    "answer": "Not in the filings: Intel's 10-K does not report wafer starts.",
+    "evidence": []
+  }
+]

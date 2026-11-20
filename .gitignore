@@ -1,0 +1,10 @@
+data/pdfs/*.pdf
+data/pdfs/*.htm
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+results.zip
+.DS_Store

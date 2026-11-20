@@ -1,0 +1,4 @@
+configuration,MRR,Recall@5
+Dense,0.417,0.389
+BM25,0.479,0.667
+Hybrid RRF,0.432,0.528
